@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/media.css">
+    
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="node_modules//bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.6.16/sweetalert2.min.css" integrity="sha512-NvuRGlPf6cHpxQqBGnPe7fPoACpyrjhlSNeXVUY7BZAj1nNhuNpRBq3osC4yr2vswUEuHq2HtCsY2vfLNCndYA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+<body>
+
+
+  
+  <div class="container w-60" >
+    <h1>Crud System</h1>
+    <form >
+      <div class="mb-3">
+        <label  class="form-label">course name</label>
+        <input type="TEXT" class="form-control" placeholder="course name"id="coursename" >
+        
+      </div>
+      <div class="mb-3">
+        <label  class="form-label">course catogery</label>
+        <input type="TYEXT" class="form-control" placeholder="course catogery" id="coursecatogery">
+      </div>
+      <div class="mb-3">
+        <label  class="form-label">course price</label>
+        <input type="number" class="form-control" placeholder="course price"id="courseprice">
+      </div>
+      <div class="mb-3">
+        <label  class="form-label">course description</label>
+        <input type="TEXT" class="form-control"placeholder="course description" id="coursedescription">
+      </div>
+      <div class="mb-3">
+        <label  class="form-label">course capacity</label>
+        <input type="number" class="form-control" placeholder="course capacity"id="coursecapacity">
+      </div>
+
+      <div class="button d-flex ">
+      <input  type="submit" value="Add course" id="click" class="button1 btn-primary px-4 rounded ">
+      <input  type="reset" value="Clear" class="button1 btn-primary  rounded mx-1">
+    </div>
+    <input type="search" class="form-control m-2" placeholder="search" id="search">
+    <input  type="submit" value="Delete All" id="deleteall" class="btn1 btn-primary  rounded mx-1">
+    </form>
+
+    <table class="table m-3">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">name</th>
+          <th scope="col">catogery</th>
+          <th scope="col">price</th>
+          <th scope="col">description</th>
+          <th scope="col">capacity</th>
+          <th scope="col">update</th>
+          <th scope="col">Delete</th>
+        </tr>
+      </thead>
+      <tbody id="data" > 
+    
+        
+      </tbody>
+    </table>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.6.16/sweetalert2.min.js" integrity="sha512-4aFcnPgoxsyUPgn8gNinplVIEoeBizjYPTpmOaUbC3VZQCsRnduAOch9v0Pn30yTeoWq1rIZByAE4/Gg79VPEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+</html>
